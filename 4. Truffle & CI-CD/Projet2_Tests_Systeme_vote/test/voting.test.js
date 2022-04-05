@@ -15,10 +15,6 @@ contract("Voting", (accounts) => {
 
     let votingInstance;
 
-    //onlyowner
-    //require des status
-    //les variables d'etat
-
     describe("WORKFLOW STATUS CHANGE TESTS, STATUS ONLY", function() {
         before(async function() {
             votingInstance = await Voting.new(fromOwner);
@@ -85,7 +81,6 @@ contract("Voting", (accounts) => {
 
         // ---------endVotingSession / actual status is VotingSessionStarted
         it("should not set a status other than VotingSessionEnded", async() => {
-            //next status shoul be ProposalsRegistrationEnded
             await expectRevert(votingInstance.tallyVotes(fromOwner), "Current status is not voting session ended");
         });
 
@@ -104,7 +99,6 @@ contract("Voting", (accounts) => {
 
         // ---------tallyVotes / actual status is  VotingSessionEnded
         it("should not set a status other than VotesTallied", async() => {
-            //next status shoul be ProposalsRegistrationEnded
             await expectRevert(votingInstance.startVotingSession(fromOwner), "Registering proposals phase is not finished");
         });
 
@@ -140,7 +134,6 @@ contract("Voting", (accounts) => {
                 "WorkflowStatusChange", { previousStatus: new BN(1), newStatus: new BN(2) }
             );
         });
-
 
         it("should emit WorkflowStatusChange event, (ProposalsRegistrationEnded, VotingSessionStarted)", async() => {
             expectEvent(
