@@ -87,7 +87,6 @@ class App extends Component {
   };
 
   runAddProposal = async () => {
-    console.log("****** runAddProposal");
     const { accounts, contract} = this.state;
     let proposal = document.getElementById("proposal").value;
 
@@ -98,7 +97,6 @@ class App extends Component {
   };
 
   runSetVote = async () => {
-    console.log("****** runSetVote");
     const { accounts, contract} = this.state;
     let proposalId = document.getElementById("proposal-id");
     let voteButton = document.getElementById("vote-button");

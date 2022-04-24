@@ -17,14 +17,7 @@ export default class Content extends React.Component {
         const runSetVote = this.props.runSetVote;
 
         const textChangeStatus = ["Start proposals registering", "End proposals registering", "Start voting session", "End voting session", "Tally votes"];
-        
-
-        console.log("owner", owner);
-        console.log("isOwner", isOwner);
-        console.log("isVoter", isVoter);
-        console.log("voters", voters);
-        //console.log("runAddVoter", runAddVoter);
-        console.log("proposals", proposals);
+    
         
         // 0 - Registerig voters
         if (workflowStatus==="0"){
@@ -143,8 +136,14 @@ export default class Content extends React.Component {
                     </div>
                 )
             }
+            else{
+                return (   
+                    <div className="content">
+                        <h1>End of proposals session</h1>
+                    </div>
+                );
+            }
         }
-        //else
 
         //3 - voting session
         else if (workflowStatus==="3"){
@@ -191,7 +190,15 @@ export default class Content extends React.Component {
                     </div>
                 )
             }
+            else{
+                return (   
+                    <div className="content">
+                        <h1>Voting session</h1>
+                    </div>
+                );
+            }
         }
+
         // 4 - end of voting session
         else if (workflowStatus==="4"){
             if (isOwner){
@@ -211,6 +218,13 @@ export default class Content extends React.Component {
                     </div>
                 )
             }
+            else{
+                return (   
+                    <div className="content">
+                        <h1>End of voting session</h1>
+                    </div>
+                );
+            }
         }
 
         // 5 - tally votes
@@ -225,9 +239,7 @@ export default class Content extends React.Component {
 
         else {
             return (   
-                <div>
-                    <p>Workflow status ERROR</p>
-                </div>
+                <div>Workflow status ERROR</div>
             )
         }
 
