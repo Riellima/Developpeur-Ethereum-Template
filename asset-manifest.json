@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/css/main.373c7ea4.chunk.css",
-    "main.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/main.b3d70109.chunk.js",
-    "main.js.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/main.b3d70109.chunk.js.map",
-    "runtime-main.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/runtime-main.c0b6368b.js",
-    "runtime-main.js.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/runtime-main.c0b6368b.js.map",
-    "static/js/2.0cd2c90e.chunk.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/2.0cd2c90e.chunk.js",
-    "static/js/2.0cd2c90e.chunk.js.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/2.0cd2c90e.chunk.js.map",
-    "index.html": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/index.html",
-    "precache-manifest.9fd83b4c1a3ba63d7bdc2bb9b47fd73f.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/precache-manifest.9fd83b4c1a3ba63d7bdc2bb9b47fd73f.js",
-    "service-worker.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/service-worker.js",
-    "static/css/main.373c7ea4.chunk.css.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/css/main.373c7ea4.chunk.css.map"
+    "main.css": "/Developpeur-Ethereum-Template/static/css/main.373c7ea4.chunk.css",
+    "main.js": "/Developpeur-Ethereum-Template/static/js/main.8cecae47.chunk.js",
+    "main.js.map": "/Developpeur-Ethereum-Template/static/js/main.8cecae47.chunk.js.map",
+    "runtime-main.js": "/Developpeur-Ethereum-Template/static/js/runtime-main.01884f62.js",
+    "runtime-main.js.map": "/Developpeur-Ethereum-Template/static/js/runtime-main.01884f62.js.map",
+    "static/js/2.8ea41f1e.chunk.js": "/Developpeur-Ethereum-Template/static/js/2.8ea41f1e.chunk.js",
+    "static/js/2.8ea41f1e.chunk.js.map": "/Developpeur-Ethereum-Template/static/js/2.8ea41f1e.chunk.js.map",
+    "index.html": "/Developpeur-Ethereum-Template/index.html",
+    "precache-manifest.bf06bb5d84c85243aa8a1f38b319d710.js": "/Developpeur-Ethereum-Template/precache-manifest.bf06bb5d84c85243aa8a1f38b319d710.js",
+    "service-worker.js": "/Developpeur-Ethereum-Template/service-worker.js",
+    "static/css/main.373c7ea4.chunk.css.map": "/Developpeur-Ethereum-Template/static/css/main.373c7ea4.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0b6368b.js",
-    "static/js/2.0cd2c90e.chunk.js",
+    "static/js/runtime-main.01884f62.js",
+    "static/js/2.8ea41f1e.chunk.js",
     "static/css/main.373c7ea4.chunk.css",
-    "static/js/main.b3d70109.chunk.js"
+    "static/js/main.8cecae47.chunk.js"
   ]
 }
