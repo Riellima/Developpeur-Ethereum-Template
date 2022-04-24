@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/css/main.373c7ea4.chunk.css",
+    "main.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/main.b3d70109.chunk.js",
+    "main.js.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/main.b3d70109.chunk.js.map",
+    "runtime-main.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/runtime-main.c0b6368b.js",
+    "runtime-main.js.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/runtime-main.c0b6368b.js.map",
+    "static/js/2.0cd2c90e.chunk.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/2.0cd2c90e.chunk.js",
+    "static/js/2.0cd2c90e.chunk.js.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/js/2.0cd2c90e.chunk.js.map",
+    "index.html": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/index.html",
+    "precache-manifest.9fd83b4c1a3ba63d7bdc2bb9b47fd73f.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/precache-manifest.9fd83b4c1a3ba63d7bdc2bb9b47fd73f.js",
+    "service-worker.js": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/service-worker.js",
+    "static/css/main.373c7ea4.chunk.css.map": "%20Riellima%20.github.io/Developpeur-Ethereum-Template/static/css/main.373c7ea4.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0b6368b.js",
+    "static/js/2.0cd2c90e.chunk.js",
+    "static/css/main.373c7ea4.chunk.css",
+    "static/js/main.b3d70109.chunk.js"
+  ]
+}
